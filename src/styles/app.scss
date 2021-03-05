@@ -101,7 +101,7 @@ body {
 }
 }
 
-@media (max-height: 700px) {
+@media (max-height: 760px) {
     .login-v2 .login-section .loginContent h1:first-child{
         font-size: 1.75rem!important;
     }
@@ -112,7 +112,7 @@ body {
         padding: 0 30px!important;
     }
     div.login-v2 .container{
-        height: 90%;
+        height: 85%;
     }
     div.login-v2 .login-section .inputContainer p,
     div.login-v2 .login-section input, div.login .login-section Input{
