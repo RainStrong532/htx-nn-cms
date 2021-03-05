@@ -1,0 +1,10 @@
+@import "variables";
+
+.producer {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    .cellTable:nth-child(3), .cellTable:nth-child(4), .headerTable:nth-child(3),.headerTable:nth-child(4){
+        white-space: nowrap;
+    }
+}

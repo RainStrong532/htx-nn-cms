@@ -1,0 +1,72 @@
+@import "variables";
+// $headerWidth: 100vw - 200px;
+
+.header {
+    // margin-top: 6px;
+    // padding-right: 28px;
+    // width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .add {
+        color: $add-button!important;
+        vertical-align: middle;
+        display: flex;
+        align-items: center;
+        img{
+            width: 20px;
+            height: auto;
+            margin-right: 10px;
+        }
+    }
+    .title {
+        background: url("/images/Title-bg.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        font-size: 20px;
+        font-weight: 700;
+        color: $navbar-green;
+        padding: 19px 60px 19px 21px;
+    }
+
+    button {
+        background: white;
+        width: 176px;
+        height: 59px;
+        border: none;
+        box-shadow: 0px 2px 2px 0px #cecece;
+        margin-left: 32px;
+        border-radius: 7px;
+        font-size: 16px;
+        font-weight: 500;
+
+        img {
+            width: 21px;
+            height: 21px;
+            margin-right: 14px;
+        }
+    }
+
+    .add-btn {
+        color: $add-button;
+    }
+
+    .export-btn {
+        color: $green;
+    }
+
+    .cancel-btn{
+        text-transform: uppercase;
+        color: #01444F;
+        padding: 19.6px 26px;
+        vertical-align: middle;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: auto;
+        img{
+            margin-top: 5px;
+            width: 14.6px;
+            height: auto;
+        }
+    }
+}

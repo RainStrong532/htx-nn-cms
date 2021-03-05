@@ -1,0 +1,21 @@
+@import "variables";
+
+.product-cnt {
+    flex-grow: 1;
+    margin-top: 10px;
+    background-color: #fff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    .listItemContainer {
+        margin: 0;
+        .table {
+            .trHeader {
+                .headerTable {
+                    padding: 20px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,72 @@
+@import "./variables.scss";
+
+.login-v2 {
+    background-color: $login-bacground;
+    background-image: none !important;
+    .login-section {
+        padding: 50px 45px!important;
+        .fpContainer {
+            .fogot-password-btn {
+                color: #05ac37;
+            }
+        }
+        .loginContent {
+            margin: 0!important;
+            h1 {
+                color: $main-color;
+                text-transform: uppercase;
+                &:first-child {
+                    font-size: 2.1875rem !important;
+                    font-weight: bold !important;
+                    margin-bottom: 12px!important;
+                }
+                &:last-child {
+                    font-weight: 600 !important;
+                    font-size: 1.5rem !important;
+                }
+            }
+        }
+        .btnContainer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .btn {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                width: auto;
+                margin-top: 8px;
+                padding: 12px 12px !important;
+                font-size: 1.25rem;
+                font-weight: 700;
+                cursor: pointer;
+                .icon {
+                    display: flex;
+                    align-items: center;
+                    margin-right: 10px;
+                    img {
+                        height: 100%;
+                        width: auto;
+                    }
+                    height: 24px;
+                }
+            }
+            .homeBtn {
+                border: 2px solid $main-color;
+                border-radius: 7px;
+                color: $main-color;
+                line-height: 1.35;
+            }
+        }
+    }
+    .leftHorizontal {
+        display: flex;
+        align-items: center;
+        .image {
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}

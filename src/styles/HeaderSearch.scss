@@ -1,0 +1,38 @@
+.header-search {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 22px 25px 22px;
+    border-bottom: 2px solid rgba(1, 68, 79, 0.4);
+    & > div {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-grow: 1;
+        img {
+            height: 21px;
+            width: auto;
+            margin-right: 10px;
+        }
+        input {
+            width: 60%;
+            border: none;
+            &::placeholder {
+                font-size: 1rem;
+                color: #01444f;
+                opacity: 0.5;
+            }
+            &:focus {
+                outline: none !important;
+                border: none !important;
+            }
+        }
+    }
+    button {
+        background: #007487;
+        border-radius: 7px;
+        font-size: 1rem;
+        &:hover{
+            background-color: rgba($color: #007487, $alpha: 0.8);
+        }
+    }
+}
